@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="207dp"
+        android:layout_height="105dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="454dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="276dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_accessible_black_24dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dfgasdgsdff"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="197dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
